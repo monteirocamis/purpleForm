@@ -7,7 +7,7 @@ export const Container = styled.div`
     hr {
     
         @media screen and (max-device-width : 800px){
-            width: 20em;
+          width: 20em;
         }
         width: 40em;
         height: 0.3em;
