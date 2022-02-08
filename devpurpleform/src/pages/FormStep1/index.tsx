@@ -40,9 +40,10 @@ export const FormStep1 = () => {
     return (
          <Theme>
             <C.Container>
-              
+         
                 <hr/>
                 <C.InputsFromUser >
+
                 <label>
                     Qual seu nome completo ?
                     <input
