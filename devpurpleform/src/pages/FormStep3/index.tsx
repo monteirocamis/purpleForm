@@ -4,12 +4,13 @@ import { useForm, FormActions } from '../../contexts/FormContext';
 import { Theme } from '../../components/Theme';
 import { ChangeEvent, useEffect , useState} from 'react';
 import axios from 'axios';
+import { useQuestions } from '../../hooks/useQuestions';
 
 
 export const FormStep3 = () => {
     const history = useHistory();
     const { state, dispatch } = useForm();
-  
+    
 
 
 
@@ -25,7 +26,7 @@ export const FormStep3 = () => {
 
                 <h2> perguntas </h2> 
                 <Link to="/" className="backButton"> Voltar </Link>
-
+                {useQuestions()}
             
 
           
