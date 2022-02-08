@@ -11,19 +11,16 @@ Projects to Desafio Purple Metrics https://brandgym.notion.site/Desafio-Front-En
 
 ![image](https://user-images.githubusercontent.com/26682838/153027801-fbab1a23-2ac3-4d34-9d26-33ba3e4e8e9c.png)
 
-- Labeform  (React ) 
+- labeUsers  (React ) 
 
-![image](https://user-images.githubusercontent.com/26682838/153028076-c764f630-c061-4fcb-84af-2a52a8a4aa09.png)
+![image](https://user-images.githubusercontent.com/26682838/153035229-fc65e657-5d94-47ea-a2ff-a964ddfad71e.png)
 
 ### O que funciona:
 - Telas criadas com Typescript,React, Styled-components e react-router 
 
 ### O que não funcionou
 
-- consumo de API com erro 
-    - CORS 
-    - erro 404 
-    - option_set[] não encontrado 
+- terminar consumo API nas perguntas
 
 - testes unitários em Jest não finalizados.
 
