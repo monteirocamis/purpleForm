@@ -1,18 +1,21 @@
 import { useHistory, Link } from 'react-router-dom';
 import * as C from './styles';
-import { useForm, FormActions } from '../../contexts/FormContext';
+// import { useForm, FormActions } from '../../contexts/FormContext';
 import { Theme } from '../../components/Theme';
-import { ChangeEvent, useEffect , useState} from 'react';
-import axios from 'axios';
+// import { ChangeEvent, useEffect , useState} from 'react';
+// import axios from 'axios';
+//import { useQuestions } from '../../hooks/useQuestions';
 
 
 export const FormStep3 = () => {
-    const history = useHistory();
-    const { state, dispatch } = useForm();
+   //// const history = useHistory();
+    //const { state, dispatch } = useForm();
   
+    // const {questions,  getAll } = useQuestions()
 
-
-
+    // useEffect(() => {
+    //     getAll()
+    // } , [])
 
 
 
