@@ -1,7 +1,6 @@
 # purpleForm
 
 ## Description
-Projects to Desafio Purple Metrics https://brandgym.notion.site/Desafio-Front-End-React-JS-Typescript-68404af4c73d49548090b0a843a3dce6
 
 - PurpleForm simplificado  ( Typescript )
 
