@@ -1,1 +1,1 @@
-export * from './purpleService'
+export * from './PurpleService'
