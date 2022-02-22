@@ -9,14 +9,19 @@ export const  useQuestions = () => {
 
     useEffect(()  => {
         axios
-        .get("https://api.staging.purplemetrics.com.br/api/v1/list-questions/5c56a367-a16d-47c2-b369-076b7595903c/1234?fields=theme") 
+
+        .get("https://api.staging.purplemetrics.com.br/api/v1/list-questions/5c56a367-a16d-47c2-b369-076b7595903c/1236?fields=theme" ,{ 
+            headers: {
+              'Access-Control-Allow-Origin' : '*'
+             },
+            } )
         .then((response) => {
-         console.log(response.data)
-         // setQuestions(response.data)
+         setQuestions(response.data)
+
         })
     } , [] )
 
-
+    
 
     return questions
 
