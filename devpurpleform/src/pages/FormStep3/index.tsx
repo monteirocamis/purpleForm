@@ -33,7 +33,7 @@ export const FormStep3 = () => {
                 <h2> perguntas </h2> 
                 <Link to="/" className="backButton"> Voltar </Link>
 
-                {/* //<List itens={itemsFromApi} />  */}
+          
 
             <p>{itemsFromApi} </p>
 
