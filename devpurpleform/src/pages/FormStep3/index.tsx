@@ -1,6 +1,7 @@
 import {  Link } from 'react-router-dom';
 import * as C from './styles';
 import { Theme } from '../../components/Theme';
+
 import { useApi } from '../../hooks';
 import {  useEffect } from 'react';
 // import axios from 'axios';
@@ -14,6 +15,7 @@ export const FormStep3 = () => {
     //const { state, dispatch } = useForm();
    
    const {itemsFromApi, getAll } = useApi()
+
 
     useEffect(() => {
       
@@ -36,6 +38,7 @@ export const FormStep3 = () => {
           
 
             <p>{itemsFromApi} </p>
+
 
           
             </C.Container>

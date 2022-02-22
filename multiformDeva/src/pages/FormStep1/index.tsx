@@ -3,7 +3,6 @@ import * as C from './styles';
 import { useForm, FormActions } from '../../contexts/FormContext';
 import { Theme } from '../../components/Theme';
 import { ChangeEvent, useEffect } from 'react';
-import '../../App.css';
 
 export const FormStep1 = () => {
 
@@ -40,20 +39,21 @@ export const FormStep1 = () => {
     return (
          <Theme>
             <C.Container>
-         
+                <p> Passo - {state.currentStep} </p>
+                <h1> Vamos começar! </h1>
+                <p> Preencha seu nome completo. </p>
+
                 <hr/>
-                <C.InputsFromUser >
 
                 <label>
-                    Qual seu nome completo ?
+                    Seu nome completo
                     <input
                         type="text"
+                        //autoFocus
                         value={state.name}
                        onChange={handleNameChange}
                     />
                 </label>
-                </C.InputsFromUser>
-             
  
                 <button onClick={handleNextStep}>Próximo</button> 
             </C.Container>
