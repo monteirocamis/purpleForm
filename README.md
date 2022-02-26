@@ -2,6 +2,9 @@
 
 ## Description
 - PurpleForm simplificado  ( **React** ) 
+- 
+![image](https://user-images.githubusercontent.com/26682838/155823871-ff76c174-5229-40c9-b861-d14e571c3a47.png)
+
 - PurpleForm simplificado  ( **Typescript** )
 
 ![image](https://user-images.githubusercontent.com/26682838/153027311-4ddf4e2e-7c66-40c4-bd21-3b9f94617fa3.png)
